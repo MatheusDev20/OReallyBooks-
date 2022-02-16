@@ -52,6 +52,7 @@ class Vector:
 
 v1 = Vector(3,5)
 print(v1)
+repr(v1)
 arr = []
 
 if not arr:
