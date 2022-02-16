@@ -1,0 +1,7 @@
+-> UTF 8 Enconding transforma os "code points" (U+0041) = A nos bytes necessários
+  para visualização da string
+
+-> A representação do string em bytes depende do encode utilizado ( UTF-8, UTF-16LE)
+
+"Converting from code points to bytes is encoding; converting from bytes to code points is decoding"
+
