@@ -1,0 +1,2 @@
+> Variables holds references to objects, not store them.
+> Think variables as labels who bind to objects, a single object could have one or more labels attached
