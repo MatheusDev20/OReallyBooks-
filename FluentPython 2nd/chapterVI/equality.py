@@ -18,3 +18,7 @@ print(me == falseMe)
 print(falseMe is me)
 
 # is verus "=="
+
+# The == operator compares the values of objects (the data they hold), while is compares their identities.
+
+me == falseMe # => me.__eq__(falseMe)

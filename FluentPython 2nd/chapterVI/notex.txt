@@ -1,2 +1,5 @@
 > Variables holds references to objects, not store them.
 > Think variables as labels who bind to objects, a single object could have one or more labels attached
+> While == compares values of objects and "is" Keyword compares their identity (id(object))
+> Most common use case of "is" is compare if a variable is bound to None
+
