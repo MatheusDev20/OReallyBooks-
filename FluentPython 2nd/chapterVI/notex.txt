@@ -3,3 +3,10 @@
 > While == compares values of objects and "is" Keyword compares their identity (id(object))
 > Most common use case of "is" is compare if a variable is bound to None
 
+-> Shallow Copy
+  -> When you copy a object using shallow copy (default) the elements inside the collection share the same
+    reference, so if it is mutable objects like lists, this objects can be change in both the original and the copy
+
+-> Deep Copy 
+  -> The objects do NOT share the same references, use the module 'copy' with the method 'deepcopy' to create
+
