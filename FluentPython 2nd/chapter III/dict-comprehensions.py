@@ -1,15 +1,9 @@
-dial_codes = [                                                  1
-(880,'Bangladesh'),
-(55,'Brazil'),
-(86,'China'),
-(91,'India'),
-(62,'Indonesia'),
-(81,'Japan'),
-(234,'Nigeria'),
-(92,'Pakistan'),
-(7,'Russia'),
-(1,'United States') 
-]
 
-country_dial = {country: code for code, country in dial_codes}
-print(country_dial)
+dial_codes = [(55, 'Brazil'),(86,'China'), (81,'Japan'),]
+print(dial_codes[1])
+
+country_codes = {country: code for code, country in dial_codes}
+
+swaped_codes = {code: country.upper() for country, code in sorted(country_codes.items()) if code < 85}
+print(country_codes.items())
+print(swaped_codes)

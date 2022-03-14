@@ -4,7 +4,6 @@ len(s)
 b = s.encode('utf8')
 # b'Caf\xc3\xa9'
 # é is encoded in two bytes
-
 len(b)
 # 5
 
