@@ -6,7 +6,7 @@ l1 = [3, [66, 55, 44], (7, 8, 9)]
 # Generates a shallow copy of list one -> (l2)
 l2 = list(l1)  
 # Append 100 to l1 has no effect on l2 cause they are different object 'l1 is not l2 == True'
-l1.append(100) 
+l1.append(100)
 # Append value 55 on a muttable object l[1]
 l1[1].remove(55)
 print('l1:', l1)

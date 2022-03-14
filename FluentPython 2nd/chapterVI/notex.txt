@@ -10,3 +10,9 @@
 -> Deep Copy 
   -> The objects do NOT share the same references, use the module 'copy' with the method 'deepcopy' to create
 
+-> Formal parameters in functions are passed as references to the actual objects, so if the object 
+is mutable (list or dict), changes inside the function will reflected outside.
+
+-> DO NOT! Intializa a parameter with a muttable object as a optional paramter, def(a=[])
+this could cause bugs because the elements will share the reference to the same mutable obj When
+the function is loaded, so every call will use the same list
